@@ -492,3 +492,7 @@ body {
 .checkout-btn:hover {
   background-color: #333;
 }
+.image{
+  border: 1px solid black;
+  margin:0
+}
