@@ -66,8 +66,7 @@ function addToCart(id, title, price, image) {
 
   localStorage.setItem("cart", JSON.stringify(cart));
   updateCartCount();
-//   alert(`${title} added to cart!`);
-// }
+
 }
 
 // Update cart count (your existing function)

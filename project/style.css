@@ -130,17 +130,22 @@ body {
   align-items: center;   /* vertical center */
   padding-left: 80px;    /* push from left */
 }
-
+.text-box{
+  margin-left: 190px;
+}
 .text-box h1 {
   margin: 0;
-  font-size: 30px;
+  font-size: 50px;
 }
 
 .text-box p {
   margin-top: 8px;  /* small gap */
 }
 
-
+.cart-wrapper h3{
+  background-color: gray;
+  
+}
 
 /* Product Grid */
 .product-container {
@@ -489,13 +494,4 @@ body {
 
 .checkout-btn:hover {
   background-color: #333;
-}
-.image{
-  border: 1px solid black;
-  margin:0;
-  width:fit-content;
-  height: 40px;
-}
-.image h1{
-  margin-bottom: 90px;
 }

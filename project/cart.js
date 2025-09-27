@@ -5,6 +5,9 @@ const itemCountEl = document.getElementById("itemCount");
 const cartCountEl = document.getElementById("cart-count");
 const shippingCost = 30;
 
+
+
+
 function loadCart() {
   let cart = JSON.parse(localStorage.getItem("cart")) || [];
   cartItemsEl.innerHTML = "";
@@ -17,6 +20,8 @@ function loadCart() {
     if (itemCountEl) itemCountEl.textContent = "0";
     return;
   }
+
+
 
   let productsTotal = 0;
 
@@ -34,7 +39,7 @@ function loadCart() {
         
         
       </div>
-      
+    
       <div class="quantity-controls">
           <button class="quantity-btn" onclick="changeQty(${item.id},'dec')">-</button>
           <span>${item.quantity}</span>
