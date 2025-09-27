@@ -121,29 +121,27 @@ body {
       background-color:black;
       color:white;
     }
-.mainbar{
+.mainbar {
   background: url('../Assests/main.png.jpg') no-repeat center;
-    background-size: cover;
-    text-align: left;
-    color: white;
-    position: relative;
-    padding:4rem 1rem;
-    height: 450px;
-  
-}
-.mainbar h1{
+  background-size: cover;
+  color: white;
+  height: 450px;
   display: flex;
-  justify-content: left;
-  align-items: center;
-  margin:80px 0px 0px 80px;
+  align-items: center;   /* vertical center */
+  padding-left: 80px;    /* push from left */
+}
+
+.text-box h1 {
+  margin: 0;
   font-size: 30px;
 }
-.mainbar p{
-  display: flex;
-  justify-content: left;
-  align-items: center;
-  margin:80px 0px 0px 80px;
+
+.text-box p {
+  margin-top: 8px;  /* small gap */
 }
+
+
+
 /* Product Grid */
 .product-container {
   display: grid;
@@ -494,5 +492,10 @@ body {
 }
 .image{
   border: 1px solid black;
-  margin:0
+  margin:0;
+  width:fit-content;
+  height: 40px;
+}
+.image h1{
+  margin-bottom: 90px;
 }
